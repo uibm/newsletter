@@ -2,7 +2,7 @@
 from github import Github
 import json
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 REPOS = [
     "IBM-Cloud/terraform-provider-ibm",
@@ -19,7 +19,7 @@ REPOS = [
 TOKEN = os.getenv("GITHUB_TOKEN")
 g = Github(TOKEN)
 
-since = datetime.utcnow() - timedelta(hours=1)
+since = datetime.now(timezone.utc) - timedelta(days=1)
 
 issues_summary = []
 prs_summary = []
