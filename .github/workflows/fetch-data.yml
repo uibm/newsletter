@@ -1,0 +1,31 @@
+name: Fetch and Update GitHub Data
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install PyGithub
+
+      - name: Fetch GitHub Data
+        run: python scripts/fetch_github_data.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name "Ujjwal Kumar"
+          git config user.email "ujjwal.kumar1@ibm.com"
+          git add data/*.json
+          git commit -m "Update newsletter data"
+          git push
