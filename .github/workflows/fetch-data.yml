@@ -27,5 +27,5 @@ jobs:
           git config user.name "Ujjwal Kumar"
           git config user.email "ujjwal.kumar1@ibm.com"
           git add data/*.json
-          git commit -m "Update newsletter data"
-          git push
+          git commit -m "Update newsletter data" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/uibm/newsletter.git
