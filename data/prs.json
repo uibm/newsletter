@@ -1,7 +1,7 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "fix(dnsservices): update error toolchain changes for transit gateway",
+    "title": "fix(dnsservices): update error toolchain changes for dns services",
     "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6289",
     "user": "sirijareddyibm",
     "created_at": "2025-06-12T07:02:49+00:00",
