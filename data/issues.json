@@ -14,13 +14,5 @@
     "user": "ocofaigh",
     "created_at": "2025-06-11T09:55:54+00:00",
     "body": "We are frequently seeing this when using `ibm_resource_key` to create resource key:\n```\n\u2502 ---\n\u2502 id: terraform-25711290\n\u2502 summary: |\n\u2502   [ERROR] Error retrieving resource key: The resource key cannot be found: crn:v1:bluemix:public:event-notifications:us-south:a/abac0df06b644a9cabc6e44f55b3880e:c6fd8..."
-  },
-  {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "[COS] Lifecycle Configuration not fully complete on terraform apply",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/5778",
-    "user": "jor2",
-    "created_at": "2024-11-08T12:13:18+00:00",
-    "body": "<!---\r\nPlease note the following potential times when an issue might be in Terraform core:\r\n\r\n* [Configuration Language](https://www.terraform.io/docs/configuration/index.html) or resource ordering issues\r\n* [State](https://www.terraform.io/docs/state/index.html) and [State Backend](https://www.terr..."
   }
 ]
