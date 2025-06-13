@@ -6,13 +6,5 @@
     "user": "uibm",
     "created_at": "2025-06-12T08:42:12+00:00",
     "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
-  },
-  {
-    "repo": "IBM/vpc-python-sdk",
-    "title": "feat(core): updated the sdk core version to 3.42.2",
-    "url": "https://github.com/IBM/vpc-python-sdk/pull/91",
-    "user": "uibm",
-    "created_at": "2025-06-13T06:25:39+00:00",
-    "body": "..."
   }
 ]
