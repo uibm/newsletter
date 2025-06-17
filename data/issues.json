@@ -6,13 +6,5 @@
     "user": "ocofaigh",
     "created_at": "2025-06-11T09:55:54+00:00",
     "body": "We are frequently seeing this when using `ibm_resource_key` to create resource key:\n```\n\u2502 ---\n\u2502 id: terraform-25711290\n\u2502 summary: |\n\u2502   [ERROR] Error retrieving resource key: The resource key cannot be found: crn:v1:bluemix:public:event-notifications:us-south:a/abac0df06b644a9cabc6e44f55b3880e:c6fd8..."
-  },
-  {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "The datasource \"ibm_is_bare_metal_server_initialization\"  doesn't provide a valid error if the bare metal is deleted outside the terraform context",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/4454",
-    "user": "hkantare",
-    "created_at": "2023-03-30T15:34:29+00:00",
-    "body": "when there is error to retrieve data resource \"ibm_is_bare_metal_server_initialization\", there should be a more meaningful error message returned instead of reporting a terraform error.\r\nAdditional details can be found in servicenow : [CS3253979](https://watson.service-now.com/sn_customerservice_cas..."
   }
 ]
