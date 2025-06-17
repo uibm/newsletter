@@ -1,10 +1,1 @@
-[
-  {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "ibm_resource_key is frequently returning a 404",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6287",
-    "user": "ocofaigh",
-    "created_at": "2025-06-11T09:55:54+00:00",
-    "body": "We are frequently seeing this when using `ibm_resource_key` to create resource key:\n```\n\u2502 ---\n\u2502 id: terraform-25711290\n\u2502 summary: |\n\u2502   [ERROR] Error retrieving resource key: The resource key cannot be found: crn:v1:bluemix:public:event-notifications:us-south:a/abac0df06b644a9cabc6e44f55b3880e:c6fd8..."
-  }
-]
+[]
