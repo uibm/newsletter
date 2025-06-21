@@ -6,13 +6,5 @@
     "user": "ssalerno-ibmcloud",
     "created_at": "2025-06-20T20:41:51+00:00",
     "body": "<!--- Please keep this note for the community --->\n\n### Community Note\n\n* Please vote on this issue by adding a \ud83d\udc4d [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue to help the community and maintainers prioritize this request\n* P..."
-  },
-  {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "Error: RoleDoesnotExist: Reader was not found",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6266",
-    "user": "lionelmace",
-    "created_at": "2025-06-03T19:52:04+00:00",
-    "body": "Why am I facing the following error? This role does exist.\n\n```\n2025/06/03 15:23:55 Terraform apply | \n 2025/06/03 15:23:55 Terraform apply | \n 2025/06/03 15:23:55 Terraform apply | Error: RoleDoesnotExist: Reader was not found. Valid roles are NONE, \n 2025/06/03 15:23:55 Terraform apply | \n 2025/06..."
   }
 ]
