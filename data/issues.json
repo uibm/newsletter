@@ -1,10 +1,1 @@
-[
-  {
-    "repo": "IBM/packer-plugin-ibmcloud",
-    "title": "Import packer-built image to several regions",
-    "url": "https://github.com/IBM/packer-plugin-ibmcloud/issues/126",
-    "user": "fernflower",
-    "created_at": "2025-06-27T09:57:29+00:00",
-    "body": "We are currently researching the best way to share the packer-built image among several regions (ex. us-east and us-south).\n\nIs it currently possible to have packer-built image land in COS instead of capturing it and uploading directly to the image catalog?\n\nIf it's not possible - how would you sugg..."
-  }
-]
+[]
