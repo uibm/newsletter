@@ -6,13 +6,5 @@
     "user": "fernflower",
     "created_at": "2025-06-27T09:57:29+00:00",
     "body": "We are currently researching the best way to share the packer-built image among several regions (ex. us-east and us-south).\n\nIs it currently possible to have packer-built image land in COS instead of capturing it and uploading directly to the image catalog?\n\nIf it's not possible - how would you sugg..."
-  },
-  {
-    "repo": "IBM/packer-plugin-ibmcloud",
-    "title": "Leftover resources on provisioning failure",
-    "url": "https://github.com/IBM/packer-plugin-ibmcloud/issues/125",
-    "user": "fernflower",
-    "created_at": "2025-06-24T10:30:39+00:00",
-    "body": "**Describe the bug**\nCurrently if the packer-provisioned machine fails to reach running state (for example because of capacity issues) it won't be cleaned up by the plugin. \nThis unfortunately results in leaking resources that we need to clean up manually, which is not ideal.\n\n**To Reproduce**\nProvi..."
   }
 ]
