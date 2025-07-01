@@ -1,11 +1,35 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "[Resource] [Datasource] Add out_of_band_deleted attribute to ibm_pi_volume",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6320",
+    "user": "ismirlia",
+    "created_at": "2025-07-01T19:44:43+00:00",
+    "body": "## **This change is for the service broker release in July 21st. Please merge this for the terraform release that comes after date.**\r\n\r\nAdd missing field that is returned by the volume model.\r\n\r\nOutput of acceptance tests:\r\n```\r\n--- PASS: TestAccIBMPIVolumeDataSource_basic (21.61s)\r\nPASS\r\n\r\n--- PAS..."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
     "title": "Deprecate vpn resources",
     "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6317",
     "user": "ismirlia",
     "created_at": "2025-07-01T19:10:37+00:00",
     "body": "## **This change is for the service broker release in July 21st. Please merge this for the terraform release that comes after date.**\r\n\r\nDeprecate VPN resources for July. VPN has reached end of life in July...."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "Update terraform docs with new systems",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6318",
+    "user": "ismirlia",
+    "created_at": "2025-07-01T19:18:19+00:00",
+    "body": "## **This change is for the service broker release in July 21st. Please merge this for the terraform release that comes after date.**..."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "[Resource] [Data source] Remove access config and jumbo fields, deprecate network-peer fields",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6319",
+    "user": "ismirlia",
+    "created_at": "2025-07-01T19:27:06+00:00",
+    "body": "## **This change is for the service broker release in July 21st. Please merge this for the terraform release that comes after date.**\r\n\r\nIn the next release, network-peer will be changed completely making the current fields outdated.\r\n\r\nOutput of acceptance tests:\r\n```\r\n--- PASS: TestAccIBMPINetwork..."
   },
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
