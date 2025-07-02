@@ -1,14 +1,6 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "Improvide wait logic for IAM identity template assignments and correct policy refs field mapping",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6314",
-    "user": "Daniel-Byrne",
-    "created_at": "2025-07-01T13:44:56+00:00",
-    "body": "We used retry logic to wait for an async assignment to complete. This logic only waited for an assignment to move into a succeeded state, but would keep retrying even when the state is failed. I've updated so that we will exit the retry when the assignment either succeeds or fails. \r\n\r\n<!--- See wha..."
-  },
-  {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
     "title": "[Resource] [Datasource] Replace SSH Key API with new API ",
     "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6327",
     "user": "ismirlia",
