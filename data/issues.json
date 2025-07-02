@@ -8,14 +8,6 @@
     "body": "<!---\nPlease note the following potential times when an issue might be in Terraform core:\n\n* [Configuration Language](https://www.terraform.io/docs/configuration/index.html) or resource ordering issues\n* [State](https://www.terraform.io/docs/state/index.html) and [State Backend](https://www.terrafor..."
   },
   {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "ibm_is_vpc cannot set dns_binding_name in the initial terraform apply",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6313",
-    "user": "rajatagarwal-ibm",
-    "created_at": "2025-07-01T09:52:45+00:00",
-    "body": "<!---\nPlease note the following potential times when an issue might be in Terraform core:\n\n* [Configuration Language](https://www.terraform.io/docs/configuration/index.html) or resource ordering issues\n* [State](https://www.terraform.io/docs/state/index.html) and [State Backend](https://www.terrafor..."
-  },
-  {
     "repo": "IBM/packer-plugin-ibmcloud",
     "title": "Leftover resources on provisioning failure",
     "url": "https://github.com/IBM/packer-plugin-ibmcloud/issues/125",
