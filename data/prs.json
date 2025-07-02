@@ -1,6 +1,14 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "feat: update vmware service",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6329",
+    "user": "SnehaKamat1",
+    "created_at": "2025-07-02T16:37:52+00:00",
+    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
     "title": "[Resource] [Datasource] Replace SSH Key API with new API ",
     "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6327",
     "user": "ismirlia",
