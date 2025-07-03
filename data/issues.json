@@ -22,13 +22,5 @@
     "user": "pauljegouic",
     "created_at": "2022-11-29T14:06:12+00:00",
     "body": "Hello there,\r\n\r\nI am looking for those IAM account configuration, and I cannot find them in the terraform IBM Cloud provider.\r\n\r\n![image](https://user-images.githubusercontent.com/50360031/204576794-023c9150-4d36-4ee6-9648-e96698abe4a2.png)\r\n\r\nAm i missing something or is it something that will come..."
-  },
-  {
-    "repo": "IBM/packer-plugin-ibmcloud",
-    "title": "Import packer-built image to several regions",
-    "url": "https://github.com/IBM/packer-plugin-ibmcloud/issues/126",
-    "user": "fernflower",
-    "created_at": "2025-06-27T09:57:29+00:00",
-    "body": "We are currently researching the best way to share the packer-built image among several regions (ex. us-east and us-south).\n\nIs it currently possible to have packer-built image land in COS instead of capturing it and uploading directly to the image catalog?\n\nIf it's not possible - how would you sugg..."
   }
 ]
