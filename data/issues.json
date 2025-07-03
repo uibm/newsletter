@@ -9,6 +9,14 @@
   },
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "Provisioning a secret manager with public-and-private service endpoints conduce to private endpoints (WORKING THROUGH GUI)",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6273",
+    "user": "anthonylecarrer",
+    "created_at": "2025-06-06T06:26:47+00:00",
+    "body": "Hello \n\nI'm trying to provision secret manager and secret manager secret groups. Something has changed when trying to provision the secret manager\n\nPrivate is the default service endpoint type.\nPublic-and-private service endpoint type conduce through terraform to a public-and-private service endpoin..."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
     "title": "Add User domains and User list visibility to iam_account_settings",
     "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/4204",
     "user": "pauljegouic",
