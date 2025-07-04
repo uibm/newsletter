@@ -14,13 +14,5 @@
     "user": "armelMakosso",
     "created_at": "2025-07-01T14:04:16+00:00",
     "body": "<!---\nPlease note the following potential times when an issue might be in Terraform core:\n\n* [Configuration Language](https://www.terraform.io/docs/configuration/index.html) or resource ordering issues\n* [State](https://www.terraform.io/docs/state/index.html) and [State Backend](https://www.terrafor..."
-  },
-  {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "Provisioning a secret manager with public-and-private service endpoints conduce to private endpoints (WORKING THROUGH GUI)",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6273",
-    "user": "anthonylecarrer",
-    "created_at": "2025-06-06T06:26:47+00:00",
-    "body": "Hello \n\nI'm trying to provision secret manager and secret manager secret groups. Something has changed when trying to provision the secret manager\n\nPrivate is the default service endpoint type.\nPublic-and-private service endpoint type conduce through terraform to a public-and-private service endpoin..."
   }
 ]
