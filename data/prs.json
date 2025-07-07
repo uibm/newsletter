@@ -1,5 +1,13 @@
 [
   {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "feat(tekton): add support for waiting runs limit",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6335",
+    "user": "briangleeson",
+    "created_at": "2025-07-07T16:35:52+00:00",
+    "body": "### Description\r\n\r\nAdd support for waiting runs limit on Tekton triggers\r\n\r\n\r\nOutput from acceptance testing:\r\n\r\n<!--\r\nReplace TestAccXXX with a pattern that matches the tests affected by this PR.\r\n\r\nFor more information on the `-run` flag, see the `go test` documentation at https://tip.golang.org/c..."
+  },
+  {
     "repo": "IBM/packer-plugin-ibmcloud",
     "title": "Added cleanup logic in case of instance non active",
     "url": "https://github.com/IBM/packer-plugin-ibmcloud/pull/129",
