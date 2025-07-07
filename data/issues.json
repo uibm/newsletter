@@ -1,10 +1,10 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "Error: RoleDoesnotExist: Reader was not found",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6266",
-    "user": "lionelmace",
-    "created_at": "2025-06-03T19:52:04+00:00",
-    "body": "Why am I facing the following error? This role does exist.\n\n```\n2025/06/03 15:23:55 Terraform apply | \n 2025/06/03 15:23:55 Terraform apply | \n 2025/06/03 15:23:55 Terraform apply | Error: RoleDoesnotExist: Reader was not found. Valid roles are NONE, \n 2025/06/03 15:23:55 Terraform apply | \n 2025/06..."
+    "title": "ibm_code_engine_secret: data source is failing with panic when retrieving Code Engine managed container registry secret",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6334",
+    "user": "riccardo20",
+    "created_at": "2025-07-07T15:50:46+00:00",
+    "body": "<!---\nPlease note the following potential times when an issue might be in Terraform core:\n\n* [Configuration Language](https://www.terraform.io/docs/configuration/index.html) or resource ordering issues\n* [State](https://www.terraform.io/docs/state/index.html) and [State Backend](https://www.terrafor..."
   }
 ]
