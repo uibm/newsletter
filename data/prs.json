@@ -1,18 +1,26 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "feat(tekton): add support for waiting runs limit",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6335",
-    "user": "briangleeson",
-    "created_at": "2025-07-07T16:35:52+00:00",
-    "body": "### Description\r\n\r\nAdd support for waiting runs limit on Tekton triggers\r\n\r\n\r\nOutput from acceptance testing:\r\n\r\n<!--\r\nReplace TestAccXXX with a pattern that matches the tests affected by this PR.\r\n\r\nFor more information on the `-run` flag, see the `go test` documentation at https://tip.golang.org/c..."
+    "title": "feat(public-address-range): Development Public Address Range",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6341",
+    "user": "SunithaGudisagarIBM1",
+    "created_at": "2025-07-09T16:19:27+00:00",
+    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "feat(transitgateway): tgw95 - vpn gateway changes",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6339",
+    "user": "sridhargk",
+    "created_at": "2025-07-09T15:25:07+00:00",
+    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
   },
   {
     "repo": "IBM/packer-plugin-ibmcloud",
-    "title": "Added cleanup logic in case of instance non active",
-    "url": "https://github.com/IBM/packer-plugin-ibmcloud/pull/129",
-    "user": "uibm",
-    "created_at": "2025-07-07T05:34:33+00:00",
-    "body": "closes #125..."
+    "title": "Normalize disk image names to exclude new metadata disks in Classic VSI",
+    "url": "https://github.com/IBM/packer-plugin-ibmcloud/pull/130",
+    "user": "d3rnn",
+    "created_at": "2025-07-09T21:51:03+00:00",
+    "body": "### **Context**\r\n\r\nIBM Cloud Classic VSI metadata disk names have changed in newer instances. This caused Packer builds to **accidentally include metadata disks** during image capture, leading to SoftLayer API errors like:\r\n\r\n```\r\nInvalid block device supplied. Please be sure to not include any meta..."
   }
 ]
