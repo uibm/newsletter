@@ -1,10 +1,10 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "Unmarshall error with provider 1.80.1 on ibmcloud_resource_instance ......",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6342",
-    "user": "anthonylecarrer",
-    "created_at": "2025-07-09T17:53:02+00:00",
-    "body": "Here is a simple use case : \n\n```\ndata \"ibm_resource_group\" \"group\" {\n  name = \"rg-validation\"\n}\n\ndata \"ibm_resource_instance\" \"service_instance\" {\n  name              = \"pgdb1\"\n  resource_group_id = data.ibm_resource_group.group.id\n  service           = \"databases-for-postgresql\"\n}\n``` \n\nHere is th..."
+    "title": "ibm_code_engine_secret: data source is failing with panic when retrieving Code Engine managed container registry secret",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6334",
+    "user": "riccardo20",
+    "created_at": "2025-07-07T15:50:46+00:00",
+    "body": "<!---\nPlease note the following potential times when an issue might be in Terraform core:\n\n* [Configuration Language](https://www.terraform.io/docs/configuration/index.html) or resource ordering issues\n* [State](https://www.terraform.io/docs/state/index.html) and [State Backend](https://www.terrafor..."
   }
 ]

@@ -1,26 +1,10 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "feat(public-address-range): Development Public Address Range",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6341",
-    "user": "SunithaGudisagarIBM1",
-    "created_at": "2025-07-09T16:19:27+00:00",
+    "title": "Fix error messages for both policy and action control assignments",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6354",
+    "user": "Rajesh-Pirati",
+    "created_at": "2025-07-13T17:42:19+00:00",
     "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
-  },
-  {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "feat(transitgateway): tgw95 - vpn gateway changes",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6339",
-    "user": "sridhargk",
-    "created_at": "2025-07-09T15:25:07+00:00",
-    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
-  },
-  {
-    "repo": "IBM/packer-plugin-ibmcloud",
-    "title": "Normalize disk image names to exclude new metadata disks in Classic VSI",
-    "url": "https://github.com/IBM/packer-plugin-ibmcloud/pull/130",
-    "user": "d3rnn",
-    "created_at": "2025-07-09T21:51:03+00:00",
-    "body": "### **Context**\r\n\r\nIBM Cloud Classic VSI metadata disk names have changed in newer instances. This caused Packer builds to **accidentally include metadata disks** during image capture, leading to SoftLayer API errors like:\r\n\r\n```\r\nInvalid block device supplied. Please be sure to not include any meta..."
   }
 ]
