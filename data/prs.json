@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "Added support for source_snapshot on instance template",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6364",
+    "user": "uibm",
+    "created_at": "2025-07-17T07:08:11+00:00",
+    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "feat(Image): development of image usage constraints (Allowed use)",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6366",
+    "user": "SunithaGudisagarIBM1",
+    "created_at": "2025-07-18T03:26:03+00:00",
+    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "feat(cis): trusted profile support for ibm_cis datasource ",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6363",
+    "user": "JayBhensdadia",
+    "created_at": "2025-07-17T06:01:36+00:00",
+    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
+  }
+]
