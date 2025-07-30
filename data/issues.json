@@ -1,18 +1,18 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "PowerVS subnets: inconsistency in state file:: pi_advertise and  pi_arp_broadcast",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6387",
-    "user": "surajsbharadwaj",
-    "created_at": "2025-07-28T08:24:14+00:00",
-    "body": "With the new attributes supported now..\n```\n pi_advertise         = \"enable\"\n pi_arp_broadcast     = \"disable\"\n```\n\nCase : When a **user is not specifying** these attributes, **the default value** in your backend **must be enable and disable respectively** and not the value  **null**. . If a user sp..."
+    "title": "Add support for working with resource reclamations in terraform",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6390",
+    "user": "ocofaigh",
+    "created_at": "2025-07-29T14:01:14+00:00",
+    "body": "<!--- Please keep this note for the community --->\n\n### Community Note\n\n* Please vote on this issue by adding a \ud83d\udc4d [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue to help the community and maintainers prioritize this request\n* P..."
   },
   {
-    "repo": "IBM/packer-plugin-ibmcloud",
-    "title": "FIP is attempted to be deleted twice",
-    "url": "https://github.com/IBM/packer-plugin-ibmcloud/issues/133",
-    "user": "fernflower",
-    "created_at": "2025-07-22T09:07:54+00:00",
-    "body": "**Describe the bug**\nWe have 2 provisioners (shell, ansible) in a template and see the following behavior where FIP is attempted to be deleted 2 times in a row, with the second attempt failing (no surprise here).\n\n```\n==> ibmcloud-vpc.testing-farm: Provisioning step had errors: Running the cleanup p..."
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "VPC disable_outbound_traffic_protection flag condition",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6389",
+    "user": "Ahmad-Slo",
+    "created_at": "2025-07-29T10:33:45+00:00",
+    "body": "<!---\nPlease note the following potential times when an issue might be in Terraform core:\n\n* [Configuration Language](https://www.terraform.io/docs/configuration/index.html) or resource ordering issues\n* [State](https://www.terraform.io/docs/state/index.html) and [State Backend](https://www.terrafor..."
   }
 ]
