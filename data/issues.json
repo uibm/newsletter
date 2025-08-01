@@ -1,18 +1,10 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "Add support for working with resource reclamations in terraform",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6390",
-    "user": "ocofaigh",
-    "created_at": "2025-07-29T14:01:14+00:00",
-    "body": "<!--- Please keep this note for the community --->\n\n### Community Note\n\n* Please vote on this issue by adding a \ud83d\udc4d [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue to help the community and maintainers prioritize this request\n* P..."
-  },
-  {
-    "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "VPC disable_outbound_traffic_protection flag condition",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6389",
-    "user": "Ahmad-Slo",
-    "created_at": "2025-07-29T10:33:45+00:00",
+    "title": "ibm_is_virtual_endpoint_gateway: multiple parallel vpe creations error with \"vpc is locked\"",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6224",
+    "user": "toddgiguere",
+    "created_at": "2025-05-08T13:53:27+00:00",
     "body": "<!---\nPlease note the following potential times when an issue might be in Terraform core:\n\n* [Configuration Language](https://www.terraform.io/docs/configuration/index.html) or resource ordering issues\n* [State](https://www.terraform.io/docs/state/index.html) and [State Backend](https://www.terrafor..."
   }
 ]

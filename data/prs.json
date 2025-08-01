@@ -1,10 +1,10 @@
 [
   {
-    "repo": "IBM/packer-plugin-ibmcloud",
-    "title": "added 404 check for get floating ip",
-    "url": "https://github.com/IBM/packer-plugin-ibmcloud/pull/134",
-    "user": "uibm",
-    "created_at": "2025-07-30T04:13:17+00:00",
-    "body": "solves #133..."
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "Add .env to .gitignore",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6395",
+    "user": "ismirlia",
+    "created_at": "2025-07-31T18:22:27+00:00",
+    "body": "At least in PowerVS, the .env is where we set out environment variables to test. Although it is located in .vscode directory, which is already ignored, this will add an additional layer of protection against accidentally leaking credentials...."
   }
 ]
