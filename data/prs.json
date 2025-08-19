@@ -1,18 +1,18 @@
 [
   {
     "repo": "IBM-Cloud/terraform-provider-ibm",
-    "title": "Refactor terraform errors to use new toolchain in available hosts and catalog images data sources",
-    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6407",
+    "title": "Refactor terraform errors to use new toolchain in cloud connection, cloud instance, and datacenter data sources",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6411",
     "user": "ismirlia",
-    "created_at": "2025-08-13T20:11:30+00:00",
-    "body": "This PR does it for the available hosts and catalog images data sources.\r\n\r\nOutput of acceptance tests:\r\n```\r\n--- PASS: TestAccIBMPIAvailableHostsDataSourceBasic (36.90s)\r\nPASS\r\n\r\n--- PASS: TestAccIBMPICatalogImagesDataSourceBasic (22.96s)\r\nPASS\r\n\r\n--- PASS: TestAccIBMPICatalogImagesDataSourceSAP (2..."
+    "created_at": "2025-08-18T18:09:56+00:00",
+    "body": "This PR does it for the cloud connection, cloud instance, and datacenter data sources.\r\n\r\nOutput of acceptance tests:\r\n```\r\n--- PASS: TestAccIBMPICloudConnectionsDataSourceBasic (11.54s)\r\nPASS\r\n\r\n--- PASS: TestAccIBMPICloudConnectionDataSource_basic (36.59s)\r\nPASS\r\n\r\n--- PASS: TestAccIBMPICloudInsta..."
   },
   {
-    "repo": "ibm-vpc/terraform-provider-ibm",
-    "title": "feat(rnfs): Beta support for regional file share",
-    "url": "https://github.com/ibm-vpc/terraform-provider-ibm/pull/456",
-    "user": "deepaksibm",
-    "created_at": "2025-08-13T14:50:26+00:00",
-    "body": "..."
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "upgrade bluemix-go",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6409",
+    "user": "bevicted",
+    "created_at": "2025-08-18T09:47:23+00:00",
+    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
   }
 ]
