@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "Container Addon should support OpenShift AI",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/issues/6018",
+    "user": "lionelmace",
+    "created_at": "2025-02-24T10:52:29+00:00",
+    "body": "### Description\n\nThe resource ibm_container_addons should support the installation of the new RH OpenShift AI add-on.\n\n### New or Affected Resource(s)\n\n* ibm_container_addons..."
+  }
+]
