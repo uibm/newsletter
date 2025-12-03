@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "feat: optimised access tags retrieval for vpc is_images datasource",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6578",
+    "user": "uibm",
+    "created_at": "2025-12-03T04:51:49+00:00",
+    "body": "<!--- See what makes a good Pull Request at : https://github.com/IBM-Cloud/terraform-provider-ibm/blob/master/.github/CONTRIBUTING.md --->\r\n\r\n<!--- Please keep this note for the community --->\r\n\r\n### Community Note\r\n\r\n* Please vote on this pull request by adding a \ud83d\udc4d [reaction](https://blog.github.co..."
+  },
+  {
+    "repo": "IBM-Cloud/terraform-provider-ibm",
+    "title": "dependabot: bump actions/checkout from 5.0.1 to 6.0.1",
+    "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/pull/6577",
+    "user": "dependabot[bot]",
+    "created_at": "2025-12-02T21:02:12+00:00",
+    "body": "Bumps [actions/checkout](https://github.com/actions/checkout) from 5.0.1 to 6.0.1.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/checkout/releases\">actions/checkout's releases</a>.</em></p>\n<blockquote>\n<h2>v6.0.1</h2>\n<h2>What's Changed</h2>\n<ul>..."
+  }
+]
